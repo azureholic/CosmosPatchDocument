@@ -11,9 +11,9 @@ After the creation is done, all exisiting cars are patched in bulk where IsSold 
 Create a CosmosDb account with a database and a collection.
 For this sample to work the Collection should have a partitionkey "/manafacturer"
 
-references
-Partial Document Update
+## references
+### Partial Document Update
 https://learn.microsoft.com/en-us/azure/cosmos-db/partial-document-update-getting-started?tabs=dotnet
 
-Bulk Import Data 
+### Bulk Import Data 
 https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/tutorial-dotnet-bulk-import
