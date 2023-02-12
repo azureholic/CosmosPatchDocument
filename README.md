@@ -9,7 +9,7 @@ The Inserts are done in bulk
 After the creation is done, all exisiting cars are patched in bulk where IsSold will be set to true.
 
 Create a CosmosDb account with a database and a collection.
-For this sample to work the Collection should have a partitionkey "/manafacturer"
+For this sample to work the Collection should have a partitionkey "/manufacturer"
 
 ## references
 ### Partial Document Update
