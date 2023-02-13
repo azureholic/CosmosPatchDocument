@@ -38,9 +38,6 @@ new CosmosClientOptions
 
 var container = client.GetContainer(config["CosmosDatabaseName"], config["CosmosContainerName"]);
 
-//var res = await container.CreateItemAsync<Car>(cars[0], new PartitionKey(cars[0].Manufacturer));
-//Console.WriteLine(res);
-
 Console.WriteLine($"Inserting {cars.Count} cars....");
 var startTime = DateTime.UtcNow;
 
